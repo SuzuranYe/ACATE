@@ -1,0 +1,10 @@
+# Python runtime cache
+__pycache__/
+*.py[cod]
+
+# Test and editor residue
+.pytest_cache/
+~$*.xlsx
+
+# Node runtime
+node_modules/

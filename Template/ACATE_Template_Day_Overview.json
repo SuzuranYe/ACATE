@@ -1,0 +1,151 @@
+{
+ "title": "2026-04-12（周日）",
+ "page": "第 1 张（共 3 张）",
+ "rows": [
+  {
+   "number": 1,
+   "kind": "stay",
+   "name": "京都站",
+   "start": "07:40",
+   "end": "09:15",
+   "seconds": 5700,
+   "media_count": 42
+  },
+  {
+   "number": 2,
+   "kind": "move",
+   "mode": "巴士",
+   "start": "09:15",
+   "end": "09:50",
+   "seconds": 2100,
+   "media_count": 6
+  },
+  {
+   "number": 3,
+   "kind": "stay",
+   "name": "清水寺",
+   "start": "09:50",
+   "end": "12:30",
+   "seconds": 9600,
+   "media_count": 318
+  },
+  {
+   "number": 4,
+   "kind": "move",
+   "mode": "步行",
+   "start": "12:30",
+   "end": "12:50",
+   "seconds": 1200,
+   "media_count": 25
+  },
+  {
+   "number": 5,
+   "kind": "stay",
+   "name": "二年坂",
+   "start": "12:50",
+   "end": "14:10",
+   "seconds": 4800,
+   "media_count": 96,
+   "pending": true
+  },
+  {
+   "number": 6,
+   "kind": "move",
+   "mode": "步行",
+   "start": "14:10",
+   "end": "14:35",
+   "seconds": 1500,
+   "media_count": 12
+  },
+  {
+   "number": 7,
+   "kind": "stay",
+   "name": "八坂神社",
+   "start": "14:35",
+   "end": "17:30",
+   "seconds": 10500,
+   "media_count": 204,
+   "time_lapses": 1
+  }
+ ],
+ "places": [
+  {
+   "number": 1,
+   "coord": [
+    34.98585,
+    135.7588
+   ]
+  },
+  {
+   "number": 3,
+   "coord": [
+    34.99486,
+    135.78505
+   ]
+  },
+  {
+   "number": 5,
+   "coord": [
+    34.99835,
+    135.78075
+   ]
+  },
+  {
+   "number": 7,
+   "coord": [
+    35.00366,
+    135.77868
+   ]
+  }
+ ],
+ "links": [
+  {
+   "path": [
+    [
+     34.98585,
+     135.7588
+    ],
+    [
+     34.9963,
+     135.7762
+    ],
+    [
+     34.99486,
+     135.78505
+    ]
+   ]
+  },
+  {
+   "walk": true,
+   "path": [
+    [
+     34.99486,
+     135.78505
+    ],
+    [
+     34.99835,
+     135.78075
+    ]
+   ]
+  },
+  {
+   "walk": true,
+   "path": [
+    [
+     34.99835,
+     135.78075
+    ],
+    [
+     35.00366,
+     135.77868
+    ]
+   ]
+  }
+ ],
+ "pending": [
+  "第 5 段在二年坂一带用餐，认不出店铺，暂按二年坂登记。"
+ ],
+ "notes": [
+  "第 7 段拍有一条延时。"
+ ]
+}

@@ -1,0 +1,42 @@
+name: ACATE_Test
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest, macos-latest, ubuntu-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+      - name: Install tools on Linux
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libimage-exiftool-perl ffmpeg fonts-noto-cjk
+      - name: Install tools on macOS
+        if: runner.os == 'macOS'
+        run: brew install exiftool ffmpeg
+      - name: Install tools on Windows
+        if: runner.os == 'Windows'
+        run: choco install exiftool ffmpeg -y --no-progress
+      - name: Install packages
+        shell: bash
+        run: |
+          python -m pip install pillow numpy opencv-python-headless rawpy
+          npm install jszip --prefix "$RUNNER_TEMP/npm"
+          echo "ACATE_NODE_MODULES=$RUNNER_TEMP/npm/node_modules" >> "$GITHUB_ENV"
+      - name: Python tests
+        run: python -B -X utf8 -m unittest discover -s Test -p "ACATE_Test_*.py"
+      - name: Node tests
+        run: node --test Test/ACATE_Test_Workbook.mjs

@@ -1,0 +1,43 @@
+{
+ "sequence_id": "TL-20260412-01",
+ "place_name": "八坂神社",
+ "judge_label": "1531",
+ "page": "第 2 张（共 2 张）",
+ "frames": [
+  {
+   "number": "1528",
+   "proxy": null,
+   "note": null
+  },
+  {
+   "number": "1529",
+   "proxy": null,
+   "note": null
+  },
+  {
+   "number": "1530",
+   "proxy": null,
+   "note": null
+  },
+  {
+   "number": "1531",
+   "proxy": null,
+   "note": "和 1530 错开 6.2 像素",
+   "judge": true
+  }
+ ],
+ "zoom": {
+  "numbers": [
+   "1530",
+   "1531"
+  ],
+  "centre": [
+   0.5,
+   0.5
+  ]
+ },
+ "notes": [
+  "1531 整幅错开，像是收相机时碰到了相机。",
+  "建议排除 1531。"
+ ]
+}

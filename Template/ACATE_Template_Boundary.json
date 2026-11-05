@@ -1,0 +1,76 @@
+{
+ "title": "2026-04-12（周日）　分界 1～2",
+ "page": "第 2 张（共 3 张）",
+ "rows": [
+  {
+   "time": "09:15",
+   "before": {
+    "kind": "stay",
+    "name": "京都站"
+   },
+   "after": {
+    "kind": "move",
+    "mode": "巴士"
+   },
+   "files_before": [
+    {
+     "name": "IMG_0041.CR3",
+     "time": "09:03:12",
+     "desc": "站前广场"
+    },
+    {
+     "name": "IMG_0042.CR3",
+     "time": "09:12:40",
+     "desc": "巴士站排队"
+    }
+   ],
+   "files_after": [
+    {
+     "name": "IMG_0043.CR3",
+     "time": "09:18:05",
+     "desc": "车窗外的街道"
+    },
+    {
+     "name": "IMG_0044.CR3",
+     "time": "09:31:27",
+     "desc": "车窗外的街道"
+    }
+   ]
+  },
+  {
+   "time": "09:50",
+   "before": {
+    "kind": "move",
+    "mode": "巴士"
+   },
+   "after": {
+    "kind": "stay",
+    "name": "清水寺"
+   },
+   "files_before": [
+    {
+     "name": "IMG_0047.CR3",
+     "time": "09:44:51",
+     "desc": "车窗外的坡道"
+    }
+   ],
+   "files_after": [
+    {
+     "name": "IMG_0048.CR3",
+     "time": "09:53:16",
+     "desc": "仁王门"
+    },
+    {
+     "name": "IMG_0049.CR3",
+     "time": "09:55:02",
+     "desc": "三重塔"
+    },
+    {
+     "name": "IMG_0050.CR3",
+     "time": "09:58:44",
+     "desc": "本堂的舞台"
+    }
+   ]
+  }
+ ]
+}
